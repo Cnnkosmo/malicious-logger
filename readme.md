@@ -1,1 +1,3 @@
 # my lil logger
+
+project is bootstrapped with uv to run it use ...
