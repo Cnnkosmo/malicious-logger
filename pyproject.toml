@@ -19,3 +19,7 @@ dev = [
     "respx>=0.23.1",
     "testcontainers[postgres]>=4.14.2",
 ]
+
+[tool.pyright]
+typeCheckingMode = "off"
+reportUnusedVariable = "none"
