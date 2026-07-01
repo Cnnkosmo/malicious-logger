@@ -21,6 +21,10 @@ dev = [
     "testcontainers[postgres]>=4.14.2",
 ]
 
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
 [tool.pyright]
 typeCheckingMode = "off"
 reportUnusedVariable = "none"
